@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Typography</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script type="text/javascript" src="js/application.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/placeholder.js"></script>
+  <script type="text/javascript" src="js/local-scroll.js"></script>
+  <script type="text/javascript" src="js/scroll-to.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){  
+      $('.nav-side .nav').localScroll()
+    })
+  </script>
+</head>
+
+<body data-spy="scroll" data-target=".nav-side" data-offset="0">
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </a>
+        <a href="index.html" class="brand"><img src="images/farcry-logo.png" alt="FarCry Core"></a>
+        <div class="nav-collapse">
+          <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li>
+              <a href="start.html">Getting Started&nbsp;<span class="caret"></span></a>
+              <ul>
+                <li><a href="start.html">Play with the Demo</a></li>
+                <li><a href="start.html">Download &amp; Install</a></li>
+                <li><a href="start.html">Build Stuff</a></li>
+                <li><a href="start.html">Community Support</a></li>
+                <li><a href="start.html">Commercial Support</a></li>
+              </ul>
+            </li>
+            <li class="active"><a href="typography.html">Typography</a></li>
+            <li><a href="news.html">News</a></li>
+          </ul><!-- /nav -->
+          <form class="navbar-search pull-right" action="search.html">
+            <input type="text" class="search-query" placeholder="Search">
+          </form><!-- /navbar-search pull-right -->
+        </div><!-- /nav-collapse -->
+      </div><!-- /container -->
+    </div><!-- /navbar-inner -->
+  </div><!-- /navbar navbar-fixed-top -->
+  <div class="logo">
+    <img src="images/logo-block-bg/003.jpg" alt="FarCry">
+    <div class="container">
+      <h1>Fandango Theme Typography</h1>
+      <p>This helpful little page features all the typography available with the Fandango theme for FarCry.</p>
+    </div><!-- /container -->
+  </div><!-- /logo -->
+  <div class="wrapper">
+    <div class="main">
+      <div class="container">
+        <div class="row">
+          <div class="span3">
+            <div class="section nav-side">
+              <ul class="nav nav-tabs nav-stacked">
+                <li><a href="#headings"><i class="icon-chevron-right"></i>Headings</a></li>
+                <li><a href="#body-paragraphs"><i class="icon-chevron-right"></i>Body Paragraphs</a></li>
+                <li><a href="#lists"><i class="icon-chevron-right"></i>Lists</a></li>
+                <li><a href="#tables"><i class="icon-chevron-right"></i>Tables</a></li>
+                <li><a href="#labels-and-alerts"><i class="icon-chevron-right"></i>Labels &amp; Alerts</a></li>
+                <li><a href="#icons"><i class="icon-chevron-right"></i>Icons</a></li>
+              </ul><!-- /nav nav-tabs nav-stacked -->
+            </div><!-- /section nav-side -->
+            <div class="section">
+              <blockquote>
+                <p>Some people say it's like awesome in a can. I have no idea what that actually means, but <a href="http://www.farcrycore.org/" target="_blank">FarCry Core</a> is a rock solid platform for buildings web applications.</p>
+                <small>Some Dude</small>
+              </blockquote>
+            </div><!-- /section -->
+          </div><!-- /span3 -->
+          <div class="span9">
+            <div class="section" id="headings">
+              <div class="page-header">
+                <h2>Headings</h2>
+              </div><!-- /page-header -->
+              <p>Pre-defined HTML headings from <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code>:</p>
+              <div class="well">
+                <h1>h1: Heading 1</h1>
+                <h2>h2: Heading 2</h2>
+                <h3>h3: Heading 3</h3>
+                <h4>h4: Heading 4</h4>
+                <h5>h5: Heading 5</h5>
+                <h6>h6: Heading 6</h6>
+              </div><!-- /well -->
+              <h3>Sub-Headings</h3>
+              <p>Make use of the <code>&lt;small&gt;</code> tag:</p>
+              <div class="well">
+                <h1>Heading 1 <small>h1 small</small></h1>
+                <h2>Heading 2 <small>h2 small</small></h2>
+                <h3>Heading 3 <small>h3 small</small></h3>
+                <h4>Heading 4 <small>h4 small</small></h4>
+                <h5>Heading 5 <small>h5 small</small></h5>
+                <h6>Heading 6 <small>h6 small</small></h6>
+              </div><!-- /well -->
+            </div><!-- /section #headings -->
+            <div class="section" id="body-paragraphs">
+              <div class="page-header">
+                <h2>Body Paragraphs</h2>
+              </div><!-- /page-header -->
+              <h3>Paragraphs</h3>
+              <p>The default style applied to <code>&lt;body&gt;</code> and all <code>&lt;p&gt;</code> tags:</p>
+              <div class="well">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div><!-- /well -->
+              <p>A <code>lead</code> paragraph that stands out:</p>
+              <div class="well">
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div><!-- /well -->
+              <h3>Emphasis</h3>
+              <p>Make use of tags such as <code>&lt;strong&gt;</code>, <code>&lt;small&gt;</code>, and <code>&lt;em&gt;</code> for additional styles:</p>
+              <div class="well">
+                <p>This line of text contains <strong>strong text</strong>, and <small>small text</small>, and <em>italicised text</em>.</p>
+              </div><!-- /well -->
+              <h3>Blockquotes</h3>
+              <p>Use <code>&lt;blockquote&gt;</code> for quoting blocks of content from another source within the document:</p>
+              <div class="well clearfix">
+                <blockquote>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <small>Some Dude in <cite title="Source Title">Source Title</cite></small>
+                </blockquote>
+                <blockquote class="pull-right">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <small>A floated and right aligned blockquote</small>
+                </blockquote><!-- /pull-right -->
+              </div><!-- /well clearfix -->
+              <h3>Other Elements</h3>
+              <p>A couple of other pre-styled HTML tags for instant implemenations.</p>
+              <h4>Abbreviations</h4>
+              <p>Use <code>&lt;abbr&gt;</code> tag for abbreviations and acronyms to show expanded text on hover:</p>
+              <div class="well">
+                <p>An abbreviation of Hyper Text Markup Language is <abbr title="Hyper Text Markup Language">HTML</abbr>.</p>
+              </div><!-- /well -->
+              <h4>Addresses</h4>
+              <p>Use <code>&lt;address&gt;</code> to present contact information:</p>
+              <div class="well">
+                <address>
+                  <strong>Daemon</strong><br>
+                  404/46A Macleay Street<br>
+                  Potts Point, NSW 2011<br>
+                  <abbr title="Phone">P:</abbr> +61 2 8090 9394<br>
+                  <abbr title="Email">E:</abbr> info@daemon.com.au
+                </address>
+              </div><!-- /well --> 
+            </div><!-- /section #body-paragraphs -->
+            <div class="section" id="lists">
+              <div class="page-header">
+                <h2>Lists</h2>
+              </div><!-- /page-header -->
+              <h3>Unordered</h3>
+              <p>Unordered list <code>&lt;ul&gt;</code>:</p>
+              <div class="well">
+                <ul>
+                  <li>Excepteur sint occaecat cupidatat non proident</li>
+                  <li>Sunt in culpa qui officia deserunt</li>
+                  <li>
+                    Mollit anim id est laborum lLorem ipsum dolor sit
+                    <ul>
+                      <li>Excepteur sint occaecat cupidatat non proident</li>
+                      <li>Sunt in culpa qui officia deserunt</li>
+                      <li>Mollit anim id est laborum lLorem ipsum dolor sit</li>
+                    </ul>
+                  </li>
+                  <li>Amet consectetur adipisicing elit, sed do eiusmod tempor</li>
+                  <li>Incididunt ut labore et dolore magna aliqua</li>
+                </ul>
+              </div><!-- /well -->
+              <h3>Ordered</h3>
+              <p>Ordered list <code>&lt;ol&gt;</code>:</p>
+              <div class="well">
+                <ol>
+                  <li>Excepteur sint occaecat cupidatat non proident</li>
+                  <li>Sunt in culpa qui officia deserunt</li>
+                  <li>Mollit anim id est laborum lLorem ipsum dolor sit</li>
+                  <li>Amet consectetur adipisicing elit, sed do eiusmod tempor</li>
+                  <li>Incididunt ut labore et dolore magna aliqua</li>
+                </ol>
+              </div><!-- /well -->
+              <h3>Unstyled</h3>
+              <p>A list with <code>list-style</code> set to none:</p>
+              <div class="well">
+                <ul class="unstyled">
+                  <li>Excepteur sint occaecat cupidatat non proident</li>
+                  <li>Sunt in culpa qui officia deserunt</li>
+                  <li>Mollit anim id est laborum lLorem ipsum dolor sit</li>
+                  <li>Amet consectetur adipisicing elit, sed do eiusmod tempor</li>
+                  <li>Incididunt ut labore et dolore magna aliqua</li>
+                </ul><!-- /unstyled -->
+              </div><!-- /well -->
+              <h3>Description</h3>
+              <p><code>&lt;dl&gt;</code> is a list of terms with associated descriptions:</p>
+              <div class="well">
+                <dl>
+                  <dt>Excepteur</dt>
+                  <dd>Sint occaecat cupidatat non proident</dd>
+                  <dt>Sunt</dt>
+                  <dd>In culpa qui officia deserunt</dd>
+                  <dt>Mollit</dt>
+                  <dd>Anim id est laborum lLorem ipsum dolor sit</dd>
+                </dl>
+              </div><!-- /well -->
+              <p>Alternatively, a horizontal description list:</p>
+              <div class="well">
+                <dl class="dl-horizontal">
+                  <dt>Excepteur</dt>
+                  <dd>Sint occaecat cupidatat non proident</dd>
+                  <dt>Sunt</dt>
+                  <dd>In culpa qui officia deserunt. In culpa qui officia deserunt. In culpa qui officia deserunt. In culpa qui officia deserunt. In culpa qui officia deserunt.</dd>
+                  <dt>Mollit</dt>
+                  <dd>Anim id est laborum lLorem ipsum dolor sit</dd>
+                </dl><!-- /dl-horizontal -->
+              </div><!-- /well -->
+            </div><!-- /section #lists -->
+            <div class="section" id="tables">
+              <div class="page-header">
+                <h2>Tables</h2>
+              </div><!-- /page-header -->
+              <p>A default table <code>.table</code>:</p>
+              <div class="well well-transparent">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>Column 1</th>
+                      <th>Second Column</th>
+                      <th>Third</th>
+                      <th>Final</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>A Value</td>
+                      <td>Some more longer values</td>
+                      <td>1,000</td>
+                      <td>NSW</td>
+                    </tr>
+                    <tr>
+                      <td>Another</td>
+                      <td>Lorem ipsum dolor sit amet</td>
+                      <td>3,081</td>
+                      <td>ACT</td>
+                    </tr>
+                    <tr>
+                      <td>Repeated</td>
+                      <td>Sed do eiusmod tempor incididunt ut labore</td>
+                      <td>910</td>
+                      <td>QLD</td>
+                    </tr>
+                    <tr>
+                      <td>Again</td>
+                      <td>Et dolore magna aliqua</td>
+                      <td>80,310</td>
+                      <td>VIC</td>
+                    </tr>
+                  </tbody>
+                </table><!-- /table -->
+              </div><!-- /well well-transparent -->
+              <h3>More Options</h3>
+              <p>With borders, alternative rows, and hover state on rows:</p>
+              <div class="well well-transparent">
+                <table class="table table-bordered table-striped table-hover">
+                  <thead>
+                    <tr>
+                      <th>Column 1</th>
+                      <th>Second Column</th>
+                      <th>Third</th>
+                      <th>Final</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>A Value</td>
+                      <td>Some more longer values</td>
+                      <td>1,000</td>
+                      <td>NSW</td>
+                    </tr>
+                    <tr>
+                      <td>Another</td>
+                      <td>Lorem ipsum dolor sit amet</td>
+                      <td>3,081</td>
+                      <td>ACT</td>
+                    </tr>
+                    <tr>
+                      <td>Repeated</td>
+                      <td>Sed do eiusmod tempor incididunt ut labore</td>
+                      <td>910</td>
+                      <td>QLD</td>
+                    </tr>
+                    <tr>
+                      <td>Again</td>
+                      <td>Et dolore magna aliqua</td>
+                      <td>80,310</td>
+                      <td>VIC</td>
+                    </tr>
+                  </tbody>
+                </table><!-- /table table-bordered table-striped table-hover -->
+              </div><!-- /well well-transparent -->
+              <p>Condensed table:</p>
+              <div class="well well-transparent">
+                <table class="table table-condensed">
+                  <thead>
+                    <tr>
+                      <th>Column 1</th>
+                      <th>Second Column</th>
+                      <th>Third</th>
+                      <th>Final</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>A Value</td>
+                      <td>Some more longer values</td>
+                      <td>1,000</td>
+                      <td>NSW</td>
+                    </tr>
+                    <tr>
+                      <td>Another</td>
+                      <td>Lorem ipsum dolor sit amet</td>
+                      <td>3,081</td>
+                      <td>ACT</td>
+                    </tr>
+                    <tr>
+                      <td>Repeated</td>
+                      <td>Sed do eiusmod tempor incididunt ut labore</td>
+                      <td>910</td>
+                      <td>QLD</td>
+                    </tr>
+                    <tr>
+                      <td>Again</td>
+                      <td>Et dolore magna aliqua</td>
+                      <td>80,310</td>
+                      <td>VIC</td>
+                    </tr>
+                  </tbody>
+                </table><!-- /table table-condensed -->
+              </div><!-- /well well-transparent -->
+              <h4>Row Colours</h4>
+              <p>Use <code>.error</code>, <code>.info</code>, and <code>.success</code> to colour table rows:</p>
+              <div class="well well-transparent">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>Column 1</th>
+                      <th>Second Column</th>
+                      <th>Third</th>
+                      <th>Final</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>A Value</td>
+                      <td>Some more longer values</td>
+                      <td>1,000</td>
+                      <td>NSW</td>
+                    </tr>
+                    <tr class="error">
+                      <td>Another</td>
+                      <td>Lorem ipsum dolor sit amet</td>
+                      <td>3,081</td>
+                      <td>ACT</td>
+                    </tr>
+                    <tr class="info">
+                      <td>Repeated</td>
+                      <td>Sed do eiusmod tempor incididunt ut labore</td>
+                      <td>910</td>
+                      <td>QLD</td>
+                    </tr>
+                    <tr class="success">
+                      <td>Again</td>
+                      <td>Et dolore magna aliqua</td>
+                      <td>80,310</td>
+                      <td>VIC</td>
+                    </tr>
+                  </tbody>
+                </table><!-- /table -->
+              </div><!-- /well well-transparent -->
+            </div><!-- /section #tables -->
+            <div class="section" id="labels-and-alerts">
+              <div class="page-header">
+                <h2>Labels &amp; Alerts</h2>
+              </div><!-- /page-header -->
+              <h3>Labels</h3>
+              <div class="well">
+                <p><span class="label">Default</span> <span class="label label-success">Success</span> <span class="label label-warning">Warning</span> <span class="label label-important">Important</span> <span class="label label-info">Info</span> <span class="label label-inverse">Inverse</span></p>
+              </div><!-- /well -->
+              <h3>Badges</h3>
+              <div class="well">
+                <p><span class="badge">Default</span> <span class="badge badge-success">Success</span> <span class="badge badge-warning">Warning</span> <span class="badge badge-important">Important</span> <span class="badge badge-info">Info</span> <span class="badge badge-inverse">Inverse</span></p>
+              </div><!-- /well -->
+              <h3>Alerts</h3>
+              <p>Wrap text in <code>.alert</code> to display warning messages:</p>
+              <div class="well well-transparent">
+                <div class="alert">
+                  <button type="button" class="close" data-dismiss="alert">&times;</button>
+                  <strong>Warning!</strong> Lorem ipsum dolor sit amet.
+                </div><!-- /alert -->
+              </div><!-- /well well-transparent -->
+              <h4>More Options</h4>
+              <p>Alert boxes with increased paddings and different background colours:</p>
+              <div class="well well-transparent">
+                <div class="alert alert-block">
+                  <button type="button" class="close" data-dismiss="alert">&times;</button>
+                  <h4>Warning!</h4>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </div><!-- /alert alert-block -->
+                <div class="alert alert-error">
+                  <strong>Warning!</strong> Lorem ipsum dolor sit amet.
+                </div><!-- /alert alert-error -->
+                <div class="alert alert-info">
+                  <strong>Warning!</strong> Lorem ipsum dolor sit amet.
+                </div><!-- /alert alert-info -->
+                <div class="alert alert-success">
+                  <strong>Warning!</strong> Lorem ipsum dolor sit amet.
+                </div><!-- /alert alert-success -->
+              </div><!-- /well well-transparent -->
+            </div><!-- /section #labels-and-alerts -->
+            <div class="section" id="icons">
+              <div class="page-header">
+                <h2>Icons</h2>
+              </div><!-- /page-header -->
+              <p>Icons are provided by <a href="http://glyphicons.com/" target="_blank">Glyphicons</a>.</p>
+              <ul class="the-icons clearfix">
+                <li><i class="icon-glass"></i> glass</li>
+                <li><i class="icon-music"></i> music</li>
+                <li><i class="icon-search"></i> search</li>
+                <li><i class="icon-envelope"></i> envelope</li>
+                <li><i class="icon-heart"></i> heart</li>
+                <li><i class="icon-star"></i> star</li>
+                <li><i class="icon-star-empty"></i> star empty</li>
+                <li><i class="icon-user"></i> user</li>
+                <li><i class="icon-film"></i> film</li>
+                <li><i class="icon-th-large"></i> th large</li>
+                <li><i class="icon-th"></i> th</li>
+                <li><i class="icon-th-list"></i> th list</li>
+                <li><i class="icon-ok"></i> ok</li>
+                <li><i class="icon-remove"></i> remove</li>
+                <li><i class="icon-zoom-in"></i> zoom in</li>
+                <li><i class="icon-zoom-out"></i> zoom out</li>
+                <li><i class="icon-off"></i> off</li>
+                <li><i class="icon-signal"></i> signal</li>
+                <li><i class="icon-cog"></i> cog</li>
+                <li><i class="icon-trash"></i> trash</li>
+                <li><i class="icon-home"></i> home</li>
+                <li><i class="icon-file"></i> file</li>
+                <li><i class="icon-time"></i> time</li>
+                <li><i class="icon-road"></i> road</li>
+                <li><i class="icon-download-alt"></i> download alt</li>
+                <li><i class="icon-download"></i> download</li>
+                <li><i class="icon-upload"></i> upload</li>
+                <li><i class="icon-inbox"></i> inbox</li>
+                <li><i class="icon-play-circle"></i> play circle</li>
+                <li><i class="icon-repeat"></i> repeat</li>
+                <li><i class="icon-refresh"></i> refresh</li>
+                <li><i class="icon-list-alt"></i> list alt</li>
+                <li><i class="icon-lock"></i> lock</li>
+                <li><i class="icon-flag"></i> flag</li>
+                <li><i class="icon-headphones"></i> headphones</li>
+                <li><i class="icon-volume-off"></i> volume off</li>
+                <li><i class="icon-volume-down"></i> volume down</li>
+                <li><i class="icon-volume-up"></i> volume up</li>
+                <li><i class="icon-qrcode"></i> qrcode</li>
+                <li><i class="icon-barcode"></i> barcode</li>
+                <li><i class="icon-tag"></i> tag</li>
+                <li><i class="icon-tags"></i> tags</li>
+                <li><i class="icon-book"></i> book</li>
+                <li><i class="icon-bookmark"></i> bookmark</li>
+                <li><i class="icon-print"></i> print</li>
+                <li><i class="icon-camera"></i> camera</li>
+                <li><i class="icon-font"></i> font</li>
+                <li><i class="icon-bold"></i> bold</li>
+                <li><i class="icon-italic"></i> italic</li>
+                <li><i class="icon-text-height"></i> text height</li>
+                <li><i class="icon-text-width"></i> text width</li>
+                <li><i class="icon-align-left"></i> align left</li>
+                <li><i class="icon-align-center"></i> align center</li>
+                <li><i class="icon-align-right"></i> align right</li>
+                <li><i class="icon-align-justify"></i> align justify</li>
+                <li><i class="icon-list"></i> list</li>
+                <li><i class="icon-indent-left"></i> indent left</li>
+                <li><i class="icon-indent-right"></i> indent right</li>
+                <li><i class="icon-facetime-video"></i> facetime video</li>
+                <li><i class="icon-picture"></i> picture</li>
+                <li><i class="icon-pencil"></i> pencil</li>
+                <li><i class="icon-map-marker"></i> map marker</li>
+                <li><i class="icon-adjust"></i> adjust</li>
+                <li><i class="icon-tint"></i> tint</li>
+                <li><i class="icon-edit"></i> edit</li>
+                <li><i class="icon-share"></i> share</li>
+                <li><i class="icon-check"></i> check</li>
+                <li><i class="icon-move"></i> move</li>
+                <li><i class="icon-step-backward"></i> step backward</li>
+                <li><i class="icon-fast-backward"></i> fast backward</li>
+                <li><i class="icon-backward"></i> backward</li>
+                <li><i class="icon-play"></i> play</li>
+                <li><i class="icon-pause"></i> pause</li>
+                <li><i class="icon-stop"></i> stop</li>
+                <li><i class="icon-forward"></i> forward</li>
+                <li><i class="icon-fast-forward"></i> fast forward</li>
+                <li><i class="icon-step-forward"></i> step forward</li>
+                <li><i class="icon-eject"></i> eject</li>
+                <li><i class="icon-chevron-left"></i> chevron left</li>
+                <li><i class="icon-chevron-right"></i> chevron right</li>
+                <li><i class="icon-plus-sign"></i> plus sign</li>
+                <li><i class="icon-minus-sign"></i> minus sign</li>
+                <li><i class="icon-remove-sign"></i> remove sign</li>
+                <li><i class="icon-ok-sign"></i> ok sign</li>
+                <li><i class="icon-question-sign"></i> question sign</li>
+                <li><i class="icon-info-sign"></i> info sign</li>
+                <li><i class="icon-screenshot"></i> screenshot</li>
+                <li><i class="icon-remove-circle"></i> remove circle</li>
+                <li><i class="icon-ok-circle"></i> ok circle</li>
+                <li><i class="icon-ban-circle"></i> ban circle</li>
+                <li><i class="icon-arrow-left"></i> arrow left</li>
+                <li><i class="icon-arrow-right"></i> arrow right</li>
+                <li><i class="icon-arrow-up"></i> arrow up</li>
+                <li><i class="icon-arrow-down"></i> arrow down</li>
+                <li><i class="icon-share-alt"></i> share alt</li>
+                <li><i class="icon-resize-full"></i> resize full</li>
+                <li><i class="icon-resize-small"></i> resize small</li>
+                <li><i class="icon-plus"></i> plus</li>
+                <li><i class="icon-minus"></i> minus</li>
+                <li><i class="icon-asterisk"></i> asterisk</li>
+                <li><i class="icon-exclamation-sign"></i> exclamation sign</li>
+                <li><i class="icon-gift"></i> gift</li>
+                <li><i class="icon-leaf"></i> leaf</li>
+                <li><i class="icon-fire"></i> fire</li>
+                <li><i class="icon-eye-open"></i> eye open</li>
+                <li><i class="icon-eye-close"></i> eye close</li>
+                <li><i class="icon-warning-sign"></i> warning sign</li>
+                <li><i class="icon-plane"></i> plane</li>
+                <li><i class="icon-calendar"></i> calendar</li>
+                <li><i class="icon-random"></i> random</li>
+                <li><i class="icon-comment"></i> comment</li>
+                <li><i class="icon-magnet"></i> magnet</li>
+                <li><i class="icon-chevron-up"></i> chevron up</li>
+                <li><i class="icon-chevron-down"></i> chevron down</li>
+                <li><i class="icon-retweet"></i> retweet</li>
+                <li><i class="icon-shopping-cart"></i> shopping cart</li>
+                <li><i class="icon-folder-close"></i> folder close</li>
+                <li><i class="icon-folder-open"></i> folder open</li>
+                <li><i class="icon-resize-vertical"></i> resize vertical</li>
+                <li><i class="icon-resize-horizontal"></i> resize horizontal</li>
+                <li><i class="icon-hdd"></i> hdd</li>
+                <li><i class="icon-bullhorn"></i> bullhorn</li>
+                <li><i class="icon-bell"></i> bell</li>
+                <li><i class="icon-certificate"></i> certificate</li>
+                <li><i class="icon-thumbs-up"></i> thumbs up</li>
+                <li><i class="icon-thumbs-down"></i> thumbs down</li>
+                <li><i class="icon-hand-right"></i> hand right</li>
+                <li><i class="icon-hand-left"></i> hand left</li>
+                <li><i class="icon-hand-up"></i> hand up</li>
+                <li><i class="icon-hand-down"></i> hand down</li>
+                <li><i class="icon-circle-arrow-right"></i> circle arrow right</li>
+                <li><i class="icon-circle-arrow-left"></i> circle arrow left</li>
+                <li><i class="icon-circle-arrow-up"></i> circle arrow up</li>
+                <li><i class="icon-circle-arrow-down"></i> circle arrow down</li>
+                <li><i class="icon-globe"></i> globe</li>
+                <li><i class="icon-wrench"></i> wrench</li>
+                <li><i class="icon-tasks"></i> tasks</li>
+                <li><i class="icon-filter"></i> filter</li>
+                <li><i class="icon-briefcase"></i> briefcase</li>
+                <li><i class="icon-fullscreen"></i> fullscreen</li>
+              </ul><!-- /the-icons clearfix -->
+            </div><!-- /section #icons -->
+          </div><!-- /span9 -->
+        </div><!-- /row -->
+      </div><!-- /conatiner -->
+    </div><!-- /main -->
+  </div><!-- /wrapper -->
+  <div class="footer">
+    <div class="main">
+      <div class="container">
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>FarCry Core was lovingly crafted by the Daemonites and the FarCry Community.</p>
+        <p>Copyright Daemon 2003-2012. FarCry Core is dual licensed under the GPL and Commercial Licenses.</p>
+        <div class="footer-logo">
+          <span>Powered by</span>&nbsp;<a href="http://www.farcrycore.org/" target="_blank" rel="tooltip" data-title="FarCry Core Website"><img src="images/farcry-logo.png" alt=""></a>
+        </div><!-- /footer-logo -->
+      </div><!-- /container -->
+    </div><!-- /main -->
+  </div><!-- /footer -->
+</body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Getting Started</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script type="text/javascript" src="js/application.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/placeholder.js"></script>
+  <script type="text/javascript" src="js/local-scroll.js"></script>
+  <script type="text/javascript" src="js/scroll-to.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){  
+      $('.nav-side .nav').localScroll()
+    })
+  </script>
+</head>
+
+<body data-spy="scroll" data-target=".nav-side" data-offset="0">
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </a>
+        <a href="index.html" class="brand"><img src="images/farcry-logo.png" alt="FarCry Core"></a>
+        <div class="nav-collapse">
+          <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li class="active">
+              <a href="start.html">Getting Started&nbsp;<span class="caret"></span></a>
+              <ul>
+                <li><a href="start.html">Play with the Demo</a></li>
+                <li><a href="start.html">Download &amp; Install</a></li>
+                <li><a href="start.html">Build Stuff</a></li>
+                <li><a href="start.html">Community Support</a></li>
+                <li><a href="start.html">Commercial Support</a></li>
+              </ul>
+            </li>
+            <li><a href="typography.html">Typography</a></li>
+            <li><a href="news.html">News</a></li>
+          </ul><!-- /nav -->
+          <form class="navbar-search pull-right" action="search.html">
+            <input type="text" class="search-query" placeholder="Search">
+          </form><!-- /navbar-search pull-right -->
+        </div><!-- /nav-collapse -->
+      </div><!-- /container -->
+    </div><!-- /navbar-inner -->
+  </div><!-- /navbar navbar-fixed-top -->
+  <div class="logo">
+    <img src="images/logo-block-bg/002.jpg" alt="FarCry">
+    <div class="container">
+      <h1>Getting Started</h1>
+    </div><!-- /container -->
+  </div><!-- /logo -->
+  <div class="wrapper">
+    <div class="main">
+      <div class="container">
+        <div class="row">
+          <div class="span3">
+            <div class="section nav-side">
+              <ul class="nav nav-tabs nav-stacked">
+                <li class="active"><a href="#play-with-the-demo">Pay with the Demo</a></li>
+                <li>
+                  <a href="#download-and-install">Download &amp; Install</a>
+                  <ul>
+                    <li><a href="#">Download</a></li>
+                    <li><a href="#">Install</a></li>
+                  </ul>
+                </li>
+                <li><a href="#build-stuff">Build Stuff</a></li>
+                <li><a href="#community-support">Community Support</a></li>
+                <li><a href="#commercial-support">Commercial Support</a></li>
+              </ul><!-- /nav nav-tabs nav-stacked -->
+            </div><!-- /section nav-side -->
+          </div><!-- /span3 -->
+          <div class="span9">
+            <div class="section" id="play-with-the-demo">
+              <div class="page-header">
+                <h2>Play with the Demo</h2>
+              </div><!-- /page-header -->
+              <p>The FarCry Express demo is fully functional. It’s only a sample application, but it should give you a feel for how FarCry works and is a great starting point for building your own tailor made CMS solutions.</p>
+              <p>There’s a comprehensive guide to editing and contributing in the FarCry environment.</p>
+              <p>The <a href="typography.html">typography page</a> shows examples of all the various styles and classes for the Fandango theme in action. Just <code>view source</code> on your browser to see exactly how these styles are implemented.</p>
+            </div><!-- /section #play-with-the-demo -->
+            <div class="section" id="download-and-install">
+              <div class="page-header">
+                <h2>Download &amp; Install</h2>
+              </div><!-- /page-header -->
+              <p>When you’ve finished with the Demo you might want to consider getting a proper installation going in your development and production environments.</p>
+              <p>The <a href="http://www.farcrycore.org/download" target="_blank">FarCry Core Downloads</a> page has all the latest builds available. For older builds you can check the <a href="http://www.farcrycore.org/builds" target="_blank">FarCry Builds</a> page, or go direct to the <a href="https://farcry.jira.com/source/browse" target="_blank">FarCry Source Tree</a>.</p>
+              <p>Be sure to consult the [FarCry Installation Guide] when installing for the first time. The FarCry frameowrk is pretty flexible in terms of installation configuration, but its a good idea to get a handle on the basics first.</p>
+            </div><!-- /section #download-and-install -->
+            <div class="section" id="build-stuff">
+              <div class="page-header">
+                <h2>Build Stuff</h2>
+              </div><!-- /page-header -->
+              <p>Once you’ve got your own FarCry installation going, you will want to have a crack at building something. We have a bunch of handy resources for that:</p>
+              <ul>
+                <li><a href="https://farcry.jira.com/wiki/display/FCDEV60/Book+of+FarCry" target="_blank">Developer Course</a>: the Daemon FarCry Developer Course is freely available for anyone to follow along</li>
+                <li><a href="https://farcry.jira.com/wiki/display/FCDEV60/Home" target="_blank">Documentation WIKI</a>: a truck load of documentation on all aspects of the FarCry publishing platform</li>
+                <li><a href="http://farcry.posterous.com/farcry-developer-cheat-sheet-v01" target="_blank">FarCry Cheatsheet</a>: once you get past the basics, print out this great little “two pager”</li>
+              </ul>
+            </div><!-- /section #build-stuff -->
+            <div class="section" id="community-support">
+              <div class="page-header">
+                <h2>Community Support</h2>
+              </div><!-- /page-header -->
+              <p>If you get stuck, give us a shout! The FarCry developer community is a friendly, if motley, crew of ColdFusion developers united by our love of FarCry.</p>
+              <ul>
+                <li><a href="http://groups.google.com/group/farcry-dev" target="_blank">Forums/Mailing list</a> is friendly! Ask questions, we want to help</li>
+                <li><a href="http://farcry.posterous.com/" target="_blank">Committers Blog</a> contains regular tips, announcements of upcoming features and more</li>
+                <li><a href="http://www.farcrycore.org/search" target="_blank">FarCry Google Custom Index</a> covers all the official FarCry websites for development, forums, plugins, documentation and regular FarCry bloggers</li>
+              </ul>
+            </div><!-- /section #community-support -->
+            <div class="section" id="commercial-support">
+              <div class="page-header">
+                <h2>Commercial Support</h2>
+              </div><!-- /page-header -->
+              <p>If you want some professional help, look no further than the <a href="http://www.daemon.com.au/" target="_blank">Daemonites</a>. We built FarCry and have a business based on servicing the FarCry developer community.</p>
+              <ul>
+                <li>Instructor Led Training</li>
+                <li>Development: Fixed Cost Projects & Time and Materials</li>
+                <li>Mentoring & Code Review</li>
+                <li>Commercial License (for when the GPL is too restrictive for your company)</li>
+              </ul>
+            </div><!-- /section #commercial-support -->
+          </div><!-- /span9 -->
+        </div><!-- /row -->
+      </div><!-- /conatiner -->
+    </div><!-- /main -->
+  </div><!-- /wrapper -->
+  <div class="footer">
+    <div class="main">
+      <div class="container">
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>FarCry Core was lovingly crafted by the Daemonites and the FarCry Community.</p>
+        <p>Copyright Daemon 2003-2012. FarCry Core is dual licensed under the GPL and Commercial Licenses.</p>
+        <div class="footer-logo">
+          <span>Powered by</span>&nbsp;<a href="http://www.farcrycore.org/" target="_blank" rel="tooltip" data-title="FarCry Core Website"><img src="images/farcry-logo.png" alt=""></a>
+        </div><!-- /footer-logo -->
+      </div><!-- /container -->
+    </div><!-- /main -->
+  </div><!-- /footer -->
+</body>
+</html>
