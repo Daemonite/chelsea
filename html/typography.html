@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Typography</title>
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/main.css">
@@ -16,6 +17,7 @@
       $('.nav-side .nav').localScroll()
     })
   </script>
+  <link rel="shortcut icon" href="html/css/favicons/favicon.ico">
 </head>
 
 <body data-spy="scroll" data-target=".nav-side" data-offset="0">
@@ -34,18 +36,18 @@
             <li>
               <a href="start.html">Getting Started&nbsp;<span class="caret"></span></a>
               <ul>
-                <li><a href="start.html">Play with the Demo</a></li>
-                <li><a href="start.html">Download &amp; Install</a></li>
-                <li><a href="start.html">Build Stuff</a></li>
-                <li><a href="start.html">Community Support</a></li>
-                <li><a href="start.html">Commercial Support</a></li>
+                <li><a href="start.html#play-with-the-demo">Play with the Demo</a></li>
+                <li><a href="start.html#download-and-install">Download &amp; Install</a></li>
+                <li><a href="start.html#build-stuff">Build Stuff</a></li>
+                <li><a href="start.html#community-support">Community Support</a></li>
+                <li><a href="start.html#commercial-support">Commercial Support</a></li>
               </ul>
             </li>
             <li class="active"><a href="typography.html">Typography</a></li>
             <li><a href="news.html">News</a></li>
           </ul><!-- /nav -->
           <form class="navbar-search pull-right" action="search.html">
-            <input type="text" class="search-query" placeholder="Search">
+            <input class="search-query" placeholder="Search" title="Search" type="search">
           </form><!-- /navbar-search pull-right -->
         </div><!-- /nav-collapse -->
       </div><!-- /container -->
@@ -230,7 +232,7 @@
               </div><!-- /page-header -->
               <p>A default table <code>.table</code>:</p>
               <div class="well well-transparent">
-                <table class="table">
+                <table class="table" title="Default Table">
                   <thead>
                     <tr>
                       <th>Column 1</th>
@@ -270,7 +272,7 @@
               <h3>More Options</h3>
               <p>With borders, alternative rows, and hover state on rows:</p>
               <div class="well well-transparent">
-                <table class="table table-bordered table-striped table-hover">
+                <table class="table table-bordered table-striped table-hover" title="Styled Table">
                   <thead>
                     <tr>
                       <th>Column 1</th>
@@ -309,7 +311,7 @@
               </div><!-- /well well-transparent -->
               <p>Condensed table:</p>
               <div class="well well-transparent">
-                <table class="table table-condensed">
+                <table class="table table-condensed" title="Condensed Table">
                   <thead>
                     <tr>
                       <th>Column 1</th>
@@ -349,7 +351,7 @@
               <h4>Row Colours</h4>
               <p>Use <code>.error</code>, <code>.info</code>, and <code>.success</code> to colour table rows:</p>
               <div class="well well-transparent">
-                <table class="table">
+                <table class="table" title="Row Colours">
                   <thead>
                     <tr>
                       <th>Column 1</th>
@@ -586,7 +588,7 @@
         <p>FarCry Core was lovingly crafted by the Daemonites and the FarCry Community.</p>
         <p>Copyright Daemon 2003-2012. FarCry Core is dual licensed under the GPL and Commercial Licenses.</p>
         <div class="footer-logo">
-          <span>Powered by</span>&nbsp;<a href="http://www.farcrycore.org/" target="_blank" rel="tooltip" data-title="FarCry Core Website"><img src="images/farcry-logo.png" alt=""></a>
+          <span>Powered by</span>&nbsp;<a href="http://www.farcrycore.org/" target="_blank" rel="tooltip" data-title="FarCry Core Website"><img src="images/farcry-logo.png" alt="FarCry Core"></a>
         </div><!-- /footer-logo -->
       </div><!-- /container -->
     </div><!-- /main -->
