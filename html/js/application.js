@@ -36,7 +36,4 @@ $(document).ready(function(){
 
   //tooltip
   $('[rel=tooltip]').tooltip();
-
-  //placeholder
-  $('input[placeholder]').placeholder();
 })
